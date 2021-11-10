@@ -1,0 +1,25 @@
+.cart-icon{
+    
+    
+
+}
+
+.circ{
+    position: absolute;
+    top: .8rem;
+    right: 2rem;
+    width: 1.8rem;
+    text-align: center;
+}
+
+.images{
+object-fit: contain;
+width: 5rem;
+}
+
+.extra{
+    width:20rem;
+}
+.xtra-btn{
+    margin-left: 37rem;
+}

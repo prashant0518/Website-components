@@ -1,0 +1,209 @@
+.sec{
+   
+    background-image: url(https://raw.githubusercontent.com/john-smilga/react-projects/eccc3539430dff2c92afdc5e2c6e7fbb74f147f1/13-stripe-submenus/final/src/images/hero.svg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* z-index: -1; */
+}
+
+@media screen and (min-width:1440px) {
+    .para{
+        max-width: 600px;
+        /* margin-left: 16rem; */
+        margin-left: 280px;
+        /* word-break: keep-all; */
+        font-size: 1.5rem;
+    }
+    .heading{
+        font-size: 5.5rem;
+        margin-left: 16rem;
+    }
+    .botn{
+        margin-right: 15rem;
+    
+    }
+    .navrow{
+        margin-bottom: 20rem;
+    
+    } 
+}
+
+
+ @media screen and (max-width:1440px)  {
+    
+    .para{
+        max-width: 400px;
+        /* margin-left: 16rem; */
+        margin-left: 180px;
+        /* word-break: keep-all; */
+        font-size: 1.2rem;
+    }
+    .heading{
+        font-size: 4.5rem;
+        margin-left: 16rem;
+    }
+    .botn{
+        margin-right: 8rem;
+    
+    }
+    .phone{
+        width: 15rem;
+        margin-left: 4rem;
+    }
+    .navrow{
+        margin-bottom: 12rem;
+    }
+}
+
+@media screen and (max-width:1200px)  {
+    
+    .para{
+        max-width: 700px;
+        margin-left: 0;
+        
+    }
+    .heading{
+        font-size: 3.5rem;
+        margin-left: 0;
+    }
+    
+    .phone{
+        width: 15rem;
+        margin-left: 4rem;
+    }
+    .navrow{
+        margin-bottom: 3rem;
+    }
+}
+@media screen and (max-width:992px){
+    .phone{
+        width: 12rem;
+        /* margin-left: 4rem; */
+    }
+    .heading{
+        font-size: 2.8rem;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:780px)  {
+    
+    .para{
+        max-width: 500px;
+        margin-left: 0;
+        font-size: .9rem;
+        
+    }
+    .heading{
+        font-size: 3.0rem;
+        margin-left: 0;
+    }
+    .botn{
+
+    }
+    
+   
+    .navrow{
+        margin-bottom: 5rem;
+        display: none;
+    }
+   
+    .sidebar{
+        height: 100%;
+        z-index: 0;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        opacity: 40%;
+
+    }
+    .sidebar1{
+        height: 90%;
+        z-index: 1;
+        position: absolute;
+        width: 90%;
+        background-color: rgb(255, 255, 255);
+        top: 3rem;
+        left: 2rem;
+        animation: exam .3s linear 1 alternate ;
+       /* display: none; */
+    }
+    @keyframes exam{
+        0%{
+            width:0%;
+            height: 0%;
+        }
+
+        100%{
+            width: 90%;
+            height: 90%;
+            display: flex;
+        }
+    }
+   .heightclass{
+    
+   height: 40rem;
+
+    }
+    
+      
+
+}
+
+/* @media screen and(min-width:768px) {
+   .sidebarbutton{
+       display: none;
+   }
+} */
+
+@media screen and (min-width:768px){
+    .submenu{
+        position: absolute;
+        top: 9rem;
+        left:45%;
+        width: 25rem;
+        z-index: 2;
+        box-shadow: 5px 10px 8px  rgb(141, 137, 137);
+        transition: left .3s;
+    }
+    .submenunew{
+        position: absolute;
+        top: 9rem;
+        left:45%;
+        width: 40rem;
+        z-index: 2;
+        box-shadow: 5px 10px 8px  rgb(141, 137, 137);
+        transition: left .3s;
+    }
+    .submenunew1{
+        position: absolute;
+        top: 9rem;
+        left:45%;
+        width:48rem;
+        z-index: 2;
+        box-shadow: 5px 10px 8px  rgb(141, 137, 137);
+        transition: left .3s;
+    }
+    .submenu-itemnew1{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-top: 1rem;
+
+    }
+    .submenu-itemnew{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 1rem;
+
+    }
+
+    .submenu-item{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 1rem;
+        
+    }
+}
+
+

@@ -1,0 +1,106 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.hero{
+   margin: 0;
+   padding: 0;
+   background-size: cover;
+   width:100%;
+   z-index: -1;
+
+}
+
+.heading{
+position: absolute;
+top: 2.4rem;
+left:1.5rem;
+font-size: 3rem;
+}
+
+.para{
+    position: absolute;
+    top:16rem;
+    left: .7rem;
+    font-size: .9rem;
+
+}
+.botn{
+    position: absolute;
+    top: 20rem;
+    left: 3rem;
+    margin-left:5rem ;
+    margin-top: 2.5rem;
+}
+
+@media  screen and (min-width:768px) {
+.para{
+    position: absolute;
+    top:23rem;
+    left: 3rem;
+    font-size: 1.2rem;
+
+}
+.heading{
+    font-size: 4rem;
+    
+    left: 4rem;
+    top:3rem;
+}
+.botn{
+    position: absolute;
+    top: 30rem;
+    left: 3rem;
+    margin-left:5rem ;
+    margin-top: 1rem;
+}
+.sec{
+   
+    background-image: url(https://raw.githubusercontent.com/john-smilga/react-projects/eccc3539430dff2c92afdc5e2c6e7fbb74f147f1/13-stripe-submenus/final/src/images/hero.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.phone{
+    
+    margin-top: 4rem;
+}
+    
+}
+
+@media screen and (min-width:1200px)  {
+    .para{
+        position: absolute;
+        top:40rem;
+        left: 22%;
+        width: 20%;
+        font-size:1.5rem;
+         /* word-break: break-all; */
+         text-transform: none;
+         /* text-align: center; */
+    }
+    .heading{
+        font-size: 500%;
+        position: absolute;
+        left: 23%;
+        top:18rem;
+    }
+    .botn{
+        position: absolute;
+        top: 90%;
+        left: 22%;
+        margin-left:5rem ;
+        margin-top: 2rem;
+    }
+    .phone{
+        margin-top: 20rem;
+        margin-right: 25%;
+    }
+    
+
+
+}
+
+
+
